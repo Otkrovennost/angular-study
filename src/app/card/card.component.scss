@@ -1,0 +1,33 @@
+.card {
+  padding: 20px;
+  border: 1px dashed rgb(83, 6, 64);
+  margin-bottom: 25px;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  .text {
+    font-size: 16px;
+
+    &.red {
+      color: red
+    }
+
+    &.blue {
+      color: blue
+    }
+
+    &.green {
+      color: green
+    }
+  }
+
+  .buttons {
+    margin-bottom: 20px;
+  }
+
+  .input {
+    margin-bottom: 20px;
+  }
+}
